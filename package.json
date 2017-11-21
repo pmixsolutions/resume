@@ -102,7 +102,7 @@
     "build": "node scripts/build.js && sw-precache --config=sw-precache-config.js",
     "test": "node scripts/test.js --env=jsdom",
     "mocha": "mocha --compilers js:babel-core/register ./src/components/**/*.test.js",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run start-dev"
   },
   "jest": {
     "moduleFileExtensions": [
