@@ -63,6 +63,7 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "filesize": "3.5.4",
     "apollo-client": "^0.8.1",
     "body-parser": "^1.16.0",
     "bootstrap-grid-only": "^1.0.0",
